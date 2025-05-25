@@ -11,16 +11,16 @@ import base64
 st.set_page_config(page_title="EOD Banking Report", layout="wide")
 
 BRANCH_MANAGER_EMAILS = {
-    "Mumbai": "patilsakshee41@gmail.com",
-    "Delhi": "patilsakshee41@gmail.com",
-    "Bangalore": "patilsakshee41@gmail.com",
-    "Default": "patilsakshee41@gmail"
+    "Mumbai": "receiver_mail",
+    "Delhi": "receiver_mail",
+    "Bangalore": "receiver_mail",
+    "Default": "receiver_mail"
 }
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_USER = "patilsakshee41@gmail.com"
-EMAIL_PASSWORD = "bkfx ssoj rvdy aiid"  # Keep this safe!
+EMAIL_USER = "sender_mail"
+EMAIL_PASSWORD = "your app password"  # Keep this safe!
 
 LOAN_TYPES = ['Gold Loan', 'Home Loan', 'Education Loan']
 
